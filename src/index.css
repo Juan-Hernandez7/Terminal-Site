@@ -1,0 +1,63 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.tab{
+    @apply hover:text-red-500 ;
+}
+
+.outer-container{
+	@apply bg-black overflow-y-auto text-terminal h-screen ml-auto mr-auto px-12  font-monofonto;
+
+}
+
+.inner-container{
+	@apply max-w-3xl ml-auto mr-auto pl-4 pr-4 ;
+}
+
+.icon{
+	@apply object-contain h-6 w-6 mr-3;
+}
+
+
+
+.title-card{
+	@apply border-terminal border px-1 py-1.5 box-content  mt-5 justify-center ;
+}
+
+.project-card{
+	@apply bg-gray-900 text-center;
+} 
+
+.card-img{
+	@apply h-52  w-full object-cover;
+}
+
+@font-face {
+    font-family: "Monofonto";
+    src: url("./fonts/monofonto.otf");
+}
+
+
+
+ul a:before,
+p a:before {
+	color:#00dd00;
+    
+	content: ' [ ';
+}
+
+ul a:after,
+p a:after {
+	color: #00dd00;
+	content: ' ] ';	
+}
+
+
+
+
+
+
+
